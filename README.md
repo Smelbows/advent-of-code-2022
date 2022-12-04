@@ -1,5 +1,12 @@
 ## Advent of code
 
+To run a day's file:
+`npm run ts-node src/day-<day-number-here>/index.ts`
+
+eg:
+
+    npm run ts-node src/day-4/index.ts
+
 #### Day one
 
 Puzzles complete, project setup still a work in progress, let's ignore it for now, hey?
