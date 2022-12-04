@@ -3,7 +3,6 @@ import { readFileSync } from 'fs';
 const file = readFileSync('./src/day-2/input.txt', 'utf-8');
 
 const data: string[] = file.split(/\r?\n/);
-data.pop();
 
 const strategy: [string, string][] = data.map((round) => [
   round.charAt(0),
